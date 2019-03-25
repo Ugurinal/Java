@@ -1,10 +1,10 @@
-package javaapplication1;
+package javaapplication2;
 
 /**
  *
  * @author ugurinal
  */
-public class JavaApplication1 {
+public class JavaApplication2 {
 
     public static void main(String[] args) {
         String x = "Hello World!";
