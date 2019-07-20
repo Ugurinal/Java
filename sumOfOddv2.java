@@ -42,12 +42,12 @@ public class Main {
         Scanner input = new Scanner(System.in);
         System.out.println("Enter the starting value: ");
 
-        check = input.hasNextInt();     /// Checking the value whether it is int or not
-        if(check){
+        //check = input.hasNextInt();     /// Checking the value whether it is int or not
+        if(input.hasNextInt()){           /// if(check)  
             start = input.nextInt();
             System.out.println("Enter the last value: ");
-            check = input.hasNextInt();
-            if (check){
+           // check = input.hasNextInt();
+            if (input.hasNextInt()){      /// if(check)
                 end = input.nextInt();
                 System.out.println("The sum of odd numbers from "+start +" to "+end +" is " +sumOdd(start,end));
 
