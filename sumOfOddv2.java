@@ -49,6 +49,20 @@ public class Main {
         input.hasNextInt();     /// Checking the value whether it is int or not
         end = input.nextInt();
 
+        //////////////////////////////////////////////////////////////////////////////////////////////////////////
+        // if we are going to enter String we have to deal Line ( \n enter ) issue. To solve this we must add   //
+        // extra input.NextLine(); line before we take the string from user...                                  //
+        // E.g.                                                                                                 //
+        //                                                                                                      //
+        //  String x;                                                                                           //
+        //  input.hasNextInt();                                                                                 //
+        //  start = input.nextInt();                                                                            //
+        //  input.NextLine(); -----> This is the extra line to handle the next line character ( \n enter key)   //
+        //  x = input.NextLine();                                                                               //
+        //  System.out.println(x);                                                                              //
+        //                                                                                                      //
+        //////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 
         System.out.println("The sum of odd numbers from "+start +" to "+end +" is " +sumOdd(start,end));
 
