@@ -46,7 +46,7 @@ public class Account {
         this.phone = phone;
     }
 
-    public String getAccountNumber() {
+    public String getNumber() {
         return this.number;
     }
 
