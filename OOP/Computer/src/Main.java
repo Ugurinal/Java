@@ -26,6 +26,7 @@ public class Main {
 
         c1.getTheMonitor().drawPixelAt(15,36,"Blue");
         c1.getTheMotherboard().loadProgram("Windows 1.0");
+        c1.getTheCase().pressPowerButton();
 
     }
 }
