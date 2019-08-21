@@ -16,6 +16,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1Pc2H6XLoFSmca79UxZWbfK0FbM" />
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -31,7 +34,7 @@
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="OOPMasterChallange" />
+      <module name="OOPMasterChallenge" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
