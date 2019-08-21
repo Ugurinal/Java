@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 /**
  * Created by UGURINAL
  * on 8/21/2019
@@ -8,10 +10,12 @@
 public class Main {
     public static void main(String[] args) {
 
-        int[] myArray = new int[20];
-        fillArray(myArray);
+        int[] myArray = getIntArray(20);
+        int[] copyOfMyArray;
         selectionSort(myArray);
         printArray(myArray);
+
+        copyOfMyArray = Arrays.copyOf(myArray, myArray.length); // copies the values of myArray into copyOfMyArray...
 
     }
 
@@ -38,10 +42,12 @@ public class Main {
         }
     }
 
-    private static void fillArray(int[] myArray){
-        for(int i = 0; i < myArray.length; i++){
-            myArray[i] = (int) (Math.random() * 1000);
+    private static int[] getIntArray(int length){
+        int[] array = new int[length];
+        for(int i = 0; i < array.length; i++){
+            array[i] = (int) (Math.random() * 1000);
         }
+        return array;
     }
 
 }
