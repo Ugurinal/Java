@@ -29,7 +29,7 @@ public class GroceryList {
     public void removeItem(int index){
         String item = groceryList.get(index - 1);
         groceryList.remove(index - 1);
-        System.out.println(index +" has been removed in your grocery list.");
+        System.out.println(item +" has been removed from your grocery list.");
     }
 
     public String findItem(String searchItem){
