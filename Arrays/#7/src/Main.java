@@ -108,11 +108,7 @@ public class Main {
             System.out.println("Enter new phone number");
             String phoneNumber = input.nextLine();
             Contact newContact = Contact.createContact(name, surname, phoneNumber);
-            if(myPhone.findContact(name) != -1){
-                System.out.println("Contact with name "+name +" already exists. Update was not succesfull.");
-            }else{
                 myPhone.updateContact(oldContact, newContact);
-            }
         } else{
             System.out.println(name +" does not exist.");
         }

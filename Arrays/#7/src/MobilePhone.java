@@ -31,7 +31,8 @@ public class MobilePhone {
             System.out.println(oldContact.getName() +" was not found.");
             return false;
         } else if(findContact(newContact.getName()) != -1 ){
-            System.out.println("Contact with name "+newContact.getName() );
+            System.out.println("Contact with name "+newContact.getName() +" already exists. Update was not successfull.");
+            return false;
         }
         myContacts.set(findIndex, newContact);
         System.out.println(oldContact.getName() +" was replaced with " +newContact.getName() +".");
@@ -52,7 +53,7 @@ public class MobilePhone {
         return myContacts.indexOf(contact);
     }
 
-    public int findContact(String ContactName){
+    private int findContact(String ContactName){
         for(int i = 0; i < myContacts.size(); i++){
             if(myContacts.get(i).getName().equals(ContactName)){
                 return i;
