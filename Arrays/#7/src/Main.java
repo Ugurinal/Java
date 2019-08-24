@@ -20,6 +20,8 @@ public class Main {
         while(!quit){
             System.out.println("Enter action: (6 to show available actions)");
             choice = input.nextInt();
+            input.nextLine();   // Remove \n from buffer
+
             switch (choice){
                 case 0:
                     shutdown();
@@ -30,19 +32,15 @@ public class Main {
                     myPhone.printContacts();
                     break;
                 case 2:
-                    input.nextLine();
                     addContact();
                     break;
                 case 3:
-                    input.nextLine();
                     updateContact();
                     break;
                 case 4:
-                    input.nextLine();
                     removeContact();
                     break;
                 case 5:
-                    input.nextLine();
                     queryContact();
                     break;
                 case 6:
