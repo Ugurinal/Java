@@ -17,7 +17,7 @@ public class Main {
         Album album1 = new Album("Kamikaze","Eminem");
 
         List<Song> playList = new ArrayList<>();
-//        List<Song> playList = new Vector<>();     Since we are using interface these 2 line would work too.
+//        List<Song> playList = new Vector<>();        Since we are using interface these 2 line would work too.
 //        List<Song> playList = new LinkedList<>();
 
         albumArrayList.add(album1);
