@@ -17,5 +17,13 @@ public class Main {
         ugursPhone.callPhone(123456);
         ugursPhone.answer();
 
+        ugursPhone = new MobilePhone(123456);
+        ugursPhone.callPhone(123456);
+        ugursPhone.answer();
+
+        ugursPhone.powerOn();
+        ugursPhone.callPhone(123456);
+        ugursPhone.answer();
+
     }
 }
