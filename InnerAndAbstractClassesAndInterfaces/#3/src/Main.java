@@ -10,8 +10,19 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        int value = 5;
-        System.out.println(value);
+
+        Player ugur = new Player("UGUR",100,100);
+        System.out.println(ugur.toString());
+        saveObject(ugur);
+
+        ugur.setHitPoints(90);
+        System.out.println(ugur);       // ugur.toString();
+
+        ugur.setWeapon("Stormbringer");
+        saveObject(ugur);
+        loadObject(ugur);
+
+        System.out.println(ugur);
 
     }
 
@@ -43,4 +54,16 @@ public class Main {
         }
         return values;
     }
+
+    public static void saveObject(ISaveable objectToSave){
+        for(int i = 0; i < objectToSave.write().size(); i++){
+            System.out.println("Saving " +objectToSave.write().get(i) + " to storage device.");
+        }
+    }
+
+    public static void loadObject(ISaveable objectToLoad){
+        ArrayList<String> values = readValues();
+        objectToLoad.read(values);
+    }
+
 }
