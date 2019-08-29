@@ -26,7 +26,7 @@ public class Main {
         ISaveable wereWolf = new Monster("Werewolf",50,40);
         System.out.println(wereWolf);
         saveObject(wereWolf);
-        System.out.println("Strength = " + ((Monster) wereWolf).getStrength());     /* Since we declare werewolf as a ISavaeble variable If we
+        System.out.println("Strength = " + ((Monster) wereWolf).getStrength());     /* Since we declare werewolf as a ISavaeble instance If we
                                                                                     want to access getStrength method we must specify that it is a monster.
                                                                                     We also can actually define getStrength method in ISaveable interface.*/
 //        loadObject(wereWolf);
