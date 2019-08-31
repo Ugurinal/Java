@@ -27,41 +27,34 @@ public class Album {
         return artist;
     }
 
-    public ArrayList<Song> getSongList() {
-        return songList;
+    public SongList getSongs() {
+        return songs;
     }
 
     public boolean addSong(String name, double duration){
-        if(findSong(name) == null){
-            this.songList.add(new Song(name, duration));
-            System.out.println(name +" added to album.");
-            return true;
-        }
-        System.out.println(name +" already exists in the album.");
-        return false;
-
+        return this.songs.add(new Song(name, duration));
     }
 
     public boolean addToPlayList(String name, LinkedList<Song> playList){
-        Song checkedSong = findSong(name);
-        if(checkedSong == null){
-            System.out.println(name +" does not exist.");
-            return false;
+        Song checkedSong = this.songs.findSong(name);
+        if(checkedSong != null){
+            playList.add(checkedSong);
+            System.out.println(name +" added to playlist.");
+            return true;
         }
-        playList.add(checkedSong);
-        System.out.println(name +" added to playlist.");
-        return true;
+        System.out.println(name +" does not exist.");
+        return false;
     }
 
     public boolean addToPlayList(int trackNumber, LinkedList<Song> playList){
-        int index = trackNumber -1;
-        if((index >= 0) && (index <= this.songList.size())){
-            playList.add(this.songList.get(index));
-            System.out.println(this.songList.get(index).getName() +" added to playlist.");
+        Song checkedSong = this.songs.findSong(trackNumber);
+        if(checkedSong != null){
+            playList.add(checkedSong);
             return true;
+        } else {
+            System.out.println("This album does not have a track " +trackNumber);
+            return false;
         }
-        System.out.println("This album does not have a track " +trackNumber);
-        return false;
     }
 
     private class SongList{
@@ -76,7 +69,7 @@ public class Album {
                 System.out.println(song.getName() + " already is in the list.");
                 return false;
             } else{
-                songs.add(song)
+                songs.add(song);
                 System.out.println(song.getName() + " added to the list.");
                 return true;
             }
