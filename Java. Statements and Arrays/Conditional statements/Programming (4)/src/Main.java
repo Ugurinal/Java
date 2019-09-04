@@ -7,13 +7,12 @@ public class Main {
 
     int year = input.nextInt();
 
-    if (year % 400 == 0) {
+    if( year % 400 == 0){
       System.out.println("Leap");
-    } else if (year % 4 == 0 && year % 100 != 0) {
+    } else if( year % 4 == 0 && year % 100 != 0){
       System.out.println("Leap");
     } else {
       System.out.println("Regular");
     }
-
   }
 }

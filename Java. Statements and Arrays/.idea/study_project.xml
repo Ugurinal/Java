@@ -180,7 +180,7 @@
                                 <option name="answerPlaceholders">
                                   <list />
                                 </option>
-                                <option name="highlightErrors" value="true" />
+                                <option name="highlightErrors" value="false" />
                                 <option name="name" value="src/Main.java" />
                                 <option name="text" value="public class Main {&#10;&#10;  public static void main(String[] args) {&#10;    //put your code here&#10;  }&#10;}" />
                                 <option name="trackChanges" value="true" />
@@ -215,7 +215,7 @@
                                 <option name="answerPlaceholders">
                                   <list />
                                 </option>
-                                <option name="highlightErrors" value="true" />
+                                <option name="highlightErrors" value="false" />
                                 <option name="name" value="src/Main.java" />
                                 <option name="text" value="public class Main {&#10;&#10;  public static void main(String[] args) {&#10;    //put your code here&#10;  }&#10;}" />
                                 <option name="trackChanges" value="true" />
@@ -250,7 +250,7 @@
                                 <option name="answerPlaceholders">
                                   <list />
                                 </option>
-                                <option name="highlightErrors" value="true" />
+                                <option name="highlightErrors" value="false" />
                                 <option name="name" value="src/Main.java" />
                                 <option name="text" value="public class Main {&#10;&#10;  public static void main(String[] args) {&#10;    //put your code here&#10;  }&#10;}" />
                                 <option name="trackChanges" value="true" />
@@ -285,7 +285,7 @@
                                 <option name="answerPlaceholders">
                                   <list />
                                 </option>
-                                <option name="highlightErrors" value="true" />
+                                <option name="highlightErrors" value="false" />
                                 <option name="name" value="src/Main.java" />
                                 <option name="text" value="public class Main {&#10;&#10;  public static void main(String[] args) {&#10;    //put your code here&#10;  }&#10;}" />
                                 <option name="trackChanges" value="true" />
@@ -320,7 +320,7 @@
                                 <option name="answerPlaceholders">
                                   <list />
                                 </option>
-                                <option name="highlightErrors" value="true" />
+                                <option name="highlightErrors" value="false" />
                                 <option name="name" value="src/Main.java" />
                                 <option name="text" value="public class Main {&#10;&#10;  public static void main(String[] args) {&#10;    //put your code here&#10;  }&#10;}" />
                                 <option name="trackChanges" value="true" />
@@ -355,7 +355,7 @@
                                 <option name="answerPlaceholders">
                                   <list />
                                 </option>
-                                <option name="highlightErrors" value="true" />
+                                <option name="highlightErrors" value="false" />
                                 <option name="name" value="src/Main.java" />
                                 <option name="text" value="public class Main {&#10;&#10;  public static void main(String[] args) {&#10;    //put your code here&#10;  }&#10;}" />
                                 <option name="trackChanges" value="true" />
@@ -390,7 +390,7 @@
                                 <option name="answerPlaceholders">
                                   <list />
                                 </option>
-                                <option name="highlightErrors" value="true" />
+                                <option name="highlightErrors" value="false" />
                                 <option name="name" value="src/Main.java" />
                                 <option name="text" value="public class Main {&#10;&#10;  public static void main(String[] args) {&#10;    //put your code here&#10;  }&#10;}" />
                                 <option name="trackChanges" value="true" />
@@ -463,7 +463,7 @@
                       <option name="index" value="2" />
                       <option name="name" value="Programming" />
                       <option name="record" value="-1" />
-                      <option name="status" value="Unchecked" />
+                      <option name="status" value="Solved" />
                       <option name="files">
                         <map>
                           <entry key="src/Main.java">
@@ -472,7 +472,7 @@
                                 <option name="answerPlaceholders">
                                   <list />
                                 </option>
-                                <option name="highlightErrors" value="false" />
+                                <option name="highlightErrors" value="true" />
                                 <option name="name" value="src/Main.java" />
                                 <option name="text" value="public class Main {&#10;&#10;  public static void main(String[] args) {&#10;    //put your code here&#10;  }&#10;}" />
                                 <option name="trackChanges" value="true" />
@@ -1257,28 +1257,7 @@
                     </TheoryTask>
                     <ChoiceTask>
                       <option name="choiceOptions">
-                        <list>
-                          <ChoiceOption>
-                            <option name="status" value="UNKNOWN" />
-                            <option name="text" value="0 1 2 3 4 5 " />
-                          </ChoiceOption>
-                          <ChoiceOption>
-                            <option name="status" value="UNKNOWN" />
-                            <option name="text" value="7 8 9 " />
-                          </ChoiceOption>
-                          <ChoiceOption>
-                            <option name="status" value="UNKNOWN" />
-                            <option name="text" value="0 1 2 3 4 5 6 7 8 9 " />
-                          </ChoiceOption>
-                          <ChoiceOption>
-                            <option name="status" value="UNKNOWN" />
-                            <option name="text" value="6 7 8 9 " />
-                          </ChoiceOption>
-                          <ChoiceOption>
-                            <option name="status" value="UNKNOWN" />
-                            <option name="text" value="0 1 2 3 4 5 6 " />
-                          </ChoiceOption>
-                        </list>
+                        <list />
                       </option>
                       <option name="customPresentableName" />
                       <option name="descriptionFormat" value="HTML" />
@@ -1357,20 +1336,7 @@
                     </CodeTask>
                     <ChoiceTask>
                       <option name="choiceOptions">
-                        <list>
-                          <ChoiceOption>
-                            <option name="status" value="UNKNOWN" />
-                            <option name="text" value="a" />
-                          </ChoiceOption>
-                          <ChoiceOption>
-                            <option name="status" value="UNKNOWN" />
-                            <option name="text" value="b" />
-                          </ChoiceOption>
-                          <ChoiceOption>
-                            <option name="status" value="UNKNOWN" />
-                            <option name="text" value="c" />
-                          </ChoiceOption>
-                        </list>
+                        <list />
                       </option>
                       <option name="customPresentableName" value="Quiz" />
                       <option name="descriptionFormat" value="HTML" />
@@ -1385,7 +1351,7 @@
                       <option name="index" value="4" />
                       <option name="messageCorrect" value="Congratulations!" />
                       <option name="messageIncorrect" value="Incorrect solution" />
-                      <option name="multipleChoice" value="true" />
+                      <option name="multipleChoice" value="false" />
                       <option name="name" value="Quiz (1)" />
                       <option name="record" value="-1" />
                       <option name="selectedVariants">
@@ -1414,28 +1380,7 @@
                     </ChoiceTask>
                     <ChoiceTask>
                       <option name="choiceOptions">
-                        <list>
-                          <ChoiceOption>
-                            <option name="status" value="UNKNOWN" />
-                            <option name="text" value="skip" />
-                          </ChoiceOption>
-                          <ChoiceOption>
-                            <option name="status" value="UNKNOWN" />
-                            <option name="text" value="terminate" />
-                          </ChoiceOption>
-                          <ChoiceOption>
-                            <option name="status" value="UNKNOWN" />
-                            <option name="text" value="continue" />
-                          </ChoiceOption>
-                          <ChoiceOption>
-                            <option name="status" value="UNKNOWN" />
-                            <option name="text" value="stop" />
-                          </ChoiceOption>
-                          <ChoiceOption>
-                            <option name="status" value="UNKNOWN" />
-                            <option name="text" value="break" />
-                          </ChoiceOption>
-                        </list>
+                        <list />
                       </option>
                       <option name="customPresentableName" value="Quiz" />
                       <option name="descriptionFormat" value="HTML" />
@@ -1503,7 +1448,7 @@
                       <option name="index" value="1" />
                       <option name="name" value="Theory" />
                       <option name="record" value="-1" />
-                      <option name="status" value="Solved" />
+                      <option name="status" value="Unchecked" />
                       <option name="files">
                         <map>
                           <entry key="src/Main.java">
@@ -1526,28 +1471,7 @@
                     </TheoryTask>
                     <ChoiceTask>
                       <option name="choiceOptions">
-                        <list>
-                          <ChoiceOption>
-                            <option name="status" value="UNKNOWN" />
-                            <option name="text" value="char[] array = new char[1];" />
-                          </ChoiceOption>
-                          <ChoiceOption>
-                            <option name="status" value="UNKNOWN" />
-                            <option name="text" value="char[] array = new char[-1];" />
-                          </ChoiceOption>
-                          <ChoiceOption>
-                            <option name="status" value="UNKNOWN" />
-                            <option name="text" value="char[] array = { 'a', 'b', 'c', 'd' };" />
-                          </ChoiceOption>
-                          <ChoiceOption>
-                            <option name="status" value="UNKNOWN" />
-                            <option name="text" value="char[] array = new char[10000000000000];" />
-                          </ChoiceOption>
-                          <ChoiceOption>
-                            <option name="status" value="UNKNOWN" />
-                            <option name="text" value="char[] array = new char[0];" />
-                          </ChoiceOption>
-                        </list>
+                        <list />
                       </option>
                       <option name="customPresentableName" />
                       <option name="descriptionFormat" value="HTML" />
@@ -1562,7 +1486,7 @@
                       <option name="index" value="2" />
                       <option name="messageCorrect" value="Congratulations!" />
                       <option name="messageIncorrect" value="Incorrect solution" />
-                      <option name="multipleChoice" value="true" />
+                      <option name="multipleChoice" value="false" />
                       <option name="name" value="Quiz" />
                       <option name="record" value="-1" />
                       <option name="selectedVariants">
@@ -2467,24 +2391,7 @@
                     </TheoryTask>
                     <ChoiceTask>
                       <option name="choiceOptions">
-                        <list>
-                          <ChoiceOption>
-                            <option name="status" value="UNKNOWN" />
-                            <option name="text" value="the address of an object" />
-                          </ChoiceOption>
-                          <ChoiceOption>
-                            <option name="status" value="UNKNOWN" />
-                            <option name="text" value="an actual value" />
-                          </ChoiceOption>
-                          <ChoiceOption>
-                            <option name="status" value="UNKNOWN" />
-                            <option name="text" value="a pointer to an object" />
-                          </ChoiceOption>
-                          <ChoiceOption>
-                            <option name="status" value="UNKNOWN" />
-                            <option name="text" value="nothing" />
-                          </ChoiceOption>
-                        </list>
+                        <list />
                       </option>
                       <option name="customPresentableName" />
                       <option name="descriptionFormat" value="HTML" />
@@ -2528,28 +2435,7 @@
                     </ChoiceTask>
                     <ChoiceTask>
                       <option name="choiceOptions">
-                        <list>
-                          <ChoiceOption>
-                            <option name="status" value="UNKNOWN" />
-                            <option name="text" value="Null" />
-                          </ChoiceOption>
-                          <ChoiceOption>
-                            <option name="status" value="UNKNOWN" />
-                            <option name="text" value="NaN" />
-                          </ChoiceOption>
-                          <ChoiceOption>
-                            <option name="status" value="UNKNOWN" />
-                            <option name="text" value="null" />
-                          </ChoiceOption>
-                          <ChoiceOption>
-                            <option name="status" value="UNKNOWN" />
-                            <option name="text" value="nil" />
-                          </ChoiceOption>
-                          <ChoiceOption>
-                            <option name="status" value="UNKNOWN" />
-                            <option name="text" value="NULL" />
-                          </ChoiceOption>
-                        </list>
+                        <list />
                       </option>
                       <option name="customPresentableName" value="Quiz" />
                       <option name="descriptionFormat" value="HTML" />
@@ -2564,7 +2450,7 @@
                       <option name="index" value="3" />
                       <option name="messageCorrect" value="Congratulations!" />
                       <option name="messageIncorrect" value="Incorrect solution" />
-                      <option name="multipleChoice" value="true" />
+                      <option name="multipleChoice" value="false" />
                       <option name="name" value="Quiz (1)" />
                       <option name="record" value="-1" />
                       <option name="selectedVariants">
@@ -2593,28 +2479,7 @@
                     </ChoiceTask>
                     <ChoiceTask>
                       <option name="choiceOptions">
-                        <list>
-                          <ChoiceOption>
-                            <option name="status" value="UNKNOWN" />
-                            <option name="text" value="Both lines can be compiled, but first one throws NullPointerException." />
-                          </ChoiceOption>
-                          <ChoiceOption>
-                            <option name="status" value="UNKNOWN" />
-                            <option name="text" value="The first line is compiled, the second line can't be compiled." />
-                          </ChoiceOption>
-                          <ChoiceOption>
-                            <option name="status" value="UNKNOWN" />
-                            <option name="text" value="Both lines can be compiled and no any exceptions here." />
-                          </ChoiceOption>
-                          <ChoiceOption>
-                            <option name="status" value="UNKNOWN" />
-                            <option name="text" value="The first line can't be compiled, the second line is compiled." />
-                          </ChoiceOption>
-                          <ChoiceOption>
-                            <option name="status" value="UNKNOWN" />
-                            <option name="text" value="Both lines can't be compiled." />
-                          </ChoiceOption>
-                        </list>
+                        <list />
                       </option>
                       <option name="customPresentableName" value="Quiz" />
                       <option name="descriptionFormat" value="HTML" />
@@ -2693,28 +2558,7 @@
                     </TheoryTask>
                     <ChoiceTask>
                       <option name="choiceOptions">
-                        <list>
-                          <ChoiceOption>
-                            <option name="status" value="UNKNOWN" />
-                            <option name="text" value="Long val = new Long(&quot;4321&quot;);" />
-                          </ChoiceOption>
-                          <ChoiceOption>
-                            <option name="status" value="UNKNOWN" />
-                            <option name="text" value="Long val = Long.parseLong(&quot;4321&quot;);" />
-                          </ChoiceOption>
-                          <ChoiceOption>
-                            <option name="status" value="UNKNOWN" />
-                            <option name="text" value="Long val = 4321L;" />
-                          </ChoiceOption>
-                          <ChoiceOption>
-                            <option name="status" value="UNKNOWN" />
-                            <option name="text" value="Long val = new Long(4321);" />
-                          </ChoiceOption>
-                          <ChoiceOption>
-                            <option name="status" value="UNKNOWN" />
-                            <option name="text" value="Long val = 4321;" />
-                          </ChoiceOption>
-                        </list>
+                        <list />
                       </option>
                       <option name="customPresentableName" value="Quiz" />
                       <option name="descriptionFormat" value="HTML" />
@@ -2729,7 +2573,7 @@
                       <option name="index" value="6" />
                       <option name="messageCorrect" value="Congratulations!" />
                       <option name="messageIncorrect" value="Incorrect solution" />
-                      <option name="multipleChoice" value="true" />
+                      <option name="multipleChoice" value="false" />
                       <option name="name" value="Quiz (3)" />
                       <option name="record" value="-1" />
                       <option name="selectedVariants">
