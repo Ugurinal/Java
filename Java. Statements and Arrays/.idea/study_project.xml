@@ -75,7 +75,7 @@
                                 <option name="answerPlaceholders">
                                   <list />
                                 </option>
-                                <option name="highlightErrors" value="false" />
+                                <option name="highlightErrors" value="true" />
                                 <option name="name" value="src/Main.java" />
                                 <option name="text" value="// you can experiment here, it won’t be checked&#10;&#10;class Task {&#10;  public static void main(String[] args) {&#10;    // put your code here&#10;  }&#10;}&#10;" />
                                 <option name="trackChanges" value="true" />
