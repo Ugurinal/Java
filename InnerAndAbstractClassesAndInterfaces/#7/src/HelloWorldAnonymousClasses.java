@@ -7,14 +7,15 @@
 
 public class HelloWorldAnonymousClasses {
 
-    interface HelloWorld{
+    interface HelloWorld {
         public void greet();
+
         public void greetSomeone(String someone);
     }
 
-    public void sayHello(){
+    public void sayHello() {
         // Local class
-        class EnglishGreeting implements HelloWorld{
+        class EnglishGreeting implements HelloWorld {
             String name = "World";
 
             @Override
@@ -31,6 +32,7 @@ public class HelloWorldAnonymousClasses {
         // Anonymous class
         HelloWorld spanishGreeting = new HelloWorld() {
             String name = "mundo";
+
             @Override
             public void greet() {
                 greetSomeone(name);

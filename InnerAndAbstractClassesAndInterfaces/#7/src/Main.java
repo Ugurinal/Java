@@ -11,6 +11,7 @@ public class Main {
         // Anonymous class
         HelloWorldAnonymousClasses.HelloWorld frenchGreeting = new HelloWorldAnonymousClasses.HelloWorld() {
             String name = "tout le monde";
+
             @Override
             public void greet() {
                 greetSomeone(name);
@@ -26,7 +27,6 @@ public class Main {
 
         HelloWorldAnonymousClasses test = new HelloWorldAnonymousClasses();
         test.sayHello();
-
 
 
     }
