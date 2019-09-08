@@ -8,7 +8,7 @@ public class Main {
         int a = scanner.nextInt();
         int b = scanner.nextInt();
         double sum = 0;
-        double counter = 0;
+        int counter = 0;
         double average = 0;
 
         for (int i = a; i <= b; i++) {
