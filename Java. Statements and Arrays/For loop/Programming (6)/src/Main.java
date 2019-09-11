@@ -8,15 +8,18 @@ public class Main {
         int a = scanner.nextInt();
         int b = scanner.nextInt();
 
-        for (int i = a; i <= b; i++) {
-            if (i % 15 == 0) {
+        for (; a <= b; a++) {
+            if (a % 15 == 0) {
+                System.out.println(a);
                 System.out.println("FizzBuzz");
-            } else if (i % 3 == 0) {
+            } else if (a % 3 == 0) {
+                System.out.println(a);
                 System.out.println("Fizz");
-            } else if (i % 5 == 0) {
+            } else if (a % 5 == 0) {
+                System.out.println(a);
                 System.out.println("Buzz");
             } else {
-                System.out.println(i);
+                System.out.println(a);
             }
         }
 
