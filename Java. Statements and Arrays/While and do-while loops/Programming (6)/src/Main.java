@@ -6,15 +6,25 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
 
         int num = scanner.nextInt();
-        System.out.println(num + " ");
+        boolean first = true;
 
         while (num != 1) {
             if (num % 2 == 0) {
-                num = num / 2;
-                System.out.print(num + " ");
+                if (first) {
+                    System.out.println(num + " ");
+                    first = false;
+                } else {
+                    num = (int) (num / 2);
+                    System.out.print(num + " ");
+                }
             } else {
-                num = (num * 3) + 1;
-                System.out.print(num + " ");
+                if (first) {
+                    System.out.println(num + " ");
+                    first = false;
+                } else {
+                    num = (int) (num * 3) + 1;
+                    System.out.print(num + " ");
+                }
             }
         }
     }
