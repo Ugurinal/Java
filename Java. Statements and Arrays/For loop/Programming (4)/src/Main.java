@@ -7,7 +7,7 @@ public class Main {
 
         int a = scanner.nextInt();
         int b = scanner.nextInt();
-        int sum = 0;
+        double sum = 0;
         int counter = 0;
         double average = 0;
 
@@ -18,7 +18,7 @@ public class Main {
             }
         }
 
-        average = (double) (sum / counter);
+        average = sum / counter;
         System.out.println(average);
     }
 }
