@@ -8,7 +8,7 @@ public class Main {
 
         switch (direction) {
             case 0:
-                System.out.println("do not move");
+                System.out.println("stay");
                 break;
             case 1:
                 System.out.println("move up");
