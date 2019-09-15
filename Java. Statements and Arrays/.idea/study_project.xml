@@ -1889,7 +1889,7 @@
                       <option name="index" value="6" />
                       <option name="name" value="Programming (3)" />
                       <option name="record" value="-1" />
-                      <option name="status" value="Unchecked" />
+                      <option name="status" value="Solved" />
                       <option name="files">
                         <map>
                           <entry key="src/Main.java">
@@ -1898,7 +1898,7 @@
                                 <option name="answerPlaceholders">
                                   <list />
                                 </option>
-                                <option name="highlightErrors" value="false" />
+                                <option name="highlightErrors" value="true" />
                                 <option name="name" value="src/Main.java" />
                                 <option name="text" value="public class Main {&#10;&#10;  public static void main(String[] args) {&#10;    //put your code here&#10;  }&#10;}" />
                                 <option name="trackChanges" value="true" />
@@ -1924,7 +1924,7 @@
                       <option name="index" value="7" />
                       <option name="name" value="Programming (4)" />
                       <option name="record" value="-1" />
-                      <option name="status" value="Unchecked" />
+                      <option name="status" value="Solved" />
                       <option name="files">
                         <map>
                           <entry key="src/Main.java">
@@ -1933,7 +1933,7 @@
                                 <option name="answerPlaceholders">
                                   <list />
                                 </option>
-                                <option name="highlightErrors" value="false" />
+                                <option name="highlightErrors" value="true" />
                                 <option name="name" value="src/Main.java" />
                                 <option name="text" value="public class Main {&#10;&#10;  public static void main(String[] args) {&#10;    //put your code here&#10;  }&#10;}" />
                                 <option name="trackChanges" value="true" />
