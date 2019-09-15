@@ -13,7 +13,7 @@ public class Main {
 
         int n = scanner.nextInt();
         int m = scanner.nextInt();
-        boolean test = false;
+        boolean test = false;       //test
 
         for (int i = 0; i < size - 1; i++) {
 
