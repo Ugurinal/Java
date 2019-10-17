@@ -21,6 +21,8 @@ public class Main {
 
         LinkedList<Song> playList =new LinkedList<>();
 
+//        Album.SongList test = album1.new SongList();
+
         albumArrayList.add(album1);
 
         album1.addSong("The Ringer",5.38);

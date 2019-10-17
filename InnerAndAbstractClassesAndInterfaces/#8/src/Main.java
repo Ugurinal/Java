@@ -7,6 +7,27 @@
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+
+        Dog dog = new Dog("Garip");
+
+        Animal test = new Dog("test");
+
+        dog.eat();
+        test.breathe();
+
+        System.out.println(dog.getName());
+        System.out.println(test.getName());
+
+        Parrot parrot = new Parrot("Maviş");
+
+        parrot.eat();
+        parrot.breathe();
+        parrot.fly();
+
+        Penguin penguin = new Penguin("Emperor");
+
+        penguin.eat();
+        penguin.breathe();
+        penguin.fly();
     }
 }
