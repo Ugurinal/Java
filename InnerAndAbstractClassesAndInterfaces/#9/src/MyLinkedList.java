@@ -64,11 +64,57 @@ public class MyLinkedList implements NodeList {
 
     @Override
     public boolean removeItem(ListItem item) {
-        return true;
+
+        if (this.root == null) {
+            System.out.println("The list is empty. You can not apply remove function.");
+            return false;
+        } else if (item == null) {
+            System.out.println("Invalid value.");
+            return false;
+        } else {
+            ListItem current = this.root;
+            int compare = this.root.compareTo(item);
+            if (compare == 0) {
+                // Item is found at the beginning of the list
+                this.root = this.root.next();
+            } else {
+                while (current.next() != null) {
+                    compare = current.compareTo(item);
+                    // Item is found at middle of the list
+                    if (compare == 0) {
+                        ListItem temp = current.next();
+                        temp.setPrevious(current.previous());
+                        current.previous().setNext(temp);
+                        return true;
+                    } else {
+                        current = current.next();
+                    }
+                }
+                // Item is found at the end of the list
+                compare = current.compareTo(item);
+                if (compare == 0) {
+                    ListItem temp = current.previous();
+                    temp.setNext(null);
+                    current.setPrevious(null);
+                    return true;
+                }
+                System.out.println(item.getValue() + " is already not on the list.");
+                return false;
+            }
+        }
+        return false;
     }
 
     @Override
     public void traverse(ListItem root) {
-
+        if (root == null) {
+            System.out.println("The list is empty.");
+        } else {
+            while (root != null) {
+                System.out.println(root.getValue());
+                root = root.next();
+            }
+        }
     }
+
 }
