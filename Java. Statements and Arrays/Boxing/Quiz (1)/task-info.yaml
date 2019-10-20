@@ -1,5 +1,11 @@
 type: choice
-is_multiple_choice: false
+is_multiple_choice: true
+options:
+- text: null
+- text: NULL
+- text: NaN
+- text: nil
+- text: Null
 message_correct: Congratulations!
 message_incorrect: Incorrect solution
 files:

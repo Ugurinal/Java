@@ -1,5 +1,11 @@
 type: choice
 is_multiple_choice: false
+options:
+- text: skip
+- text: terminate
+- text: continue
+- text: stop
+- text: break
 message_correct: Congratulations!
 message_incorrect: Incorrect solution
 files:
