@@ -11,10 +11,12 @@ public class Main {
     public static void main(String[] args) {
         MyLinkedList test = new MyLinkedList(null);
 
+
         test.addItem(new Node("0"));
         test.addItem(new Node("1"));
         test.addItem(new Node("2"));
         test.addItem(new Node("3"));
+        test.removeItem(new Node("9"));
         test.addItem(new Node("4"));
         test.addItem(new Node("5"));
         test.addItem(new Node("6"));
@@ -29,6 +31,7 @@ public class Main {
         test.removeItem(new Node("6"));
         test.removeItem(new Node("7"));
         test.removeItem(new Node("8"));
+
 
 
         test.traverse(test.getRoot());

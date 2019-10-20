@@ -65,6 +65,46 @@ public class MyLinkedList implements NodeList {
     @Override
     public boolean removeItem(ListItem item) {
 
+        if (item == null) {
+            System.out.println("Invalid value.");
+            return false;
+        }
+
+        if (this.root == null) {
+            System.out.println("he list is empty. You can not apply remove function.");
+            return false;
+        }
+
+        ListItem temp = this.root;
+        int compare = 1;
+        while (temp != null) {
+            compare = temp.compareTo(item);
+            if (compare == 0) {
+                //
+                if (temp == this.root) {
+                    // Item is found at the beginning of the list
+                    this.root = this.root.next();
+                } else {
+                    // Item is found in the middle of the list
+                    temp.previous().setNext(temp.next());
+                    if (temp.next() != null) {
+                        //Item is not at the and of the list if it is then this code will not be executed
+                        temp.next().setPrevious(temp.previous());
+                    }
+                }
+                return true;
+            } else if (compare < 0) {
+                temp = temp.next();
+            } else {
+                // We are at an item greater than the one to be deleted
+                // so the item is not in the list
+                return false;
+            }
+        }
+        System.out.println(item.getValue() + " is not alread in the list.");
+        return false;
+
+/*        MY CODE
         if (this.root == null) {
             System.out.println("The list is empty. You can not apply remove function.");
             return false;
@@ -103,6 +143,8 @@ public class MyLinkedList implements NodeList {
             }
         }
         return false;
+
+ */
     }
 
     @Override

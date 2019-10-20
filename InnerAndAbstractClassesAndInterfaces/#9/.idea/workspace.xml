@@ -22,6 +22,7 @@
   <component name="ProjectId" id="1SIpJJ55i7S5uM4kWPNaYyuiEkd" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH" value="267" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Problems" />
@@ -74,6 +75,7 @@
       <workItem from="1571584685205" duration="291000" />
       <workItem from="1571584995489" duration="20000" />
       <workItem from="1571585067116" duration="49000" />
+      <workItem from="1571592313308" duration="4453000" />
     </task>
     <servers />
   </component>
