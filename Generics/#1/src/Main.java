@@ -2,7 +2,7 @@
  * @author UGURINAL
  * on 10/21/2019
  * on 7:57 PM
- * on Generics
+ * Generics
  */
 
 public class Main {
