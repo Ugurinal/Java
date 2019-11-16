@@ -71,7 +71,7 @@ public class MyLinkedList implements NodeList {
         }
 
         if (this.root == null) {
-            System.out.println("he list is empty. You can not apply remove function.");
+            System.out.println("The list is empty. You can not apply remove function.");
             return false;
         }
 
@@ -101,7 +101,7 @@ public class MyLinkedList implements NodeList {
                 return false;
             }
         }
-        System.out.println(item.getValue() + " is not alread in the list.");
+        System.out.println(item.getValue() + " is not already in the list.");
         return false;
 
 /*        MY CODE

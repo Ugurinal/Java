@@ -11,7 +11,6 @@ public class Main {
     public static void main(String[] args) {
         MyLinkedList test = new MyLinkedList(null);
 
-
         test.addItem(new Node("0"));
         test.addItem(new Node("1"));
         test.addItem(new Node("2"));
@@ -32,14 +31,18 @@ public class Main {
         test.removeItem(new Node("7"));
         test.removeItem(new Node("8"));
 
-
-
         test.traverse(test.getRoot());
 
-        test.addItem(new Node("111"));
-        test.addItem(new Node("112"));
+
         test.addItem(new Node("113"));
-        test.removeItem(new Node("113"));
+        test.addItem(new Node("150"));
+        test.addItem(new Node("100"));
+        test.addItem(new Node("-1"));
+        test.addItem(new Node("10"));
+        test.addItem(new Node("0"));
+        test.addItem(new Node("999"));
+        test.addItem(new Node("8"));
+
 
         test.traverse(test.getRoot());
 
