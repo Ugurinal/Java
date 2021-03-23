@@ -1,16 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f73aa439-bcf9-4f0a-bf3f-d36ff0e97b29" name="Default Changelist" comment="" />
+    <list default="true" id="2f76bdcf-3f59-41ec-b852-98e499aa6546" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectId" id="1pqqJMZ0X3rfzGq8hYa4FkK4EEa" />
+  <component name="ProjectId" id="1qAns0NEcxUhmsF2bfoMQ6uht0m" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
@@ -78,10 +85,21 @@
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.ugurinal.Main" />
-      <module name="Homework1" />
+      <module name="Homework2" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -95,13 +113,12 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="f73aa439-bcf9-4f0a-bf3f-d36ff0e97b29" name="Default Changelist" comment="" />
-      <created>1615920897274</created>
+      <changelist id="2f76bdcf-3f59-41ec-b852-98e499aa6546" name="Default Changelist" comment="" />
+      <created>1616531466431</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1615920897274</updated>
-      <workItem from="1615920898669" duration="825000" />
-      <workItem from="1616531394836" duration="72000" />
+      <updated>1616531466431</updated>
+      <workItem from="1616531467615" duration="1578000" />
     </task>
     <servers />
   </component>
@@ -118,6 +135,5 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
