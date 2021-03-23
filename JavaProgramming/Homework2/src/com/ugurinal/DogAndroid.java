@@ -12,4 +12,9 @@ public class DogAndroid extends Android implements Cloneable {
     public String Move() {
         return "The dog is Running";
     }
+
+    @Override
+    protected Object clone() throws CloneNotSupportedException {
+        return super.clone();
+    }
 }
