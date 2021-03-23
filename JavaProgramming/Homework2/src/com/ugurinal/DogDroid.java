@@ -10,6 +10,6 @@ public class DogDroid extends Android implements Cloneable {
 
     @Override
     public String Move() {
-        return "The " + super.GetModel() + " dog android model is moving: The dog is Running";
+        return "The dog is Running";
     }
 }

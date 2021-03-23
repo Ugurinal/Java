@@ -4,7 +4,7 @@ public class Android {
     private final String _model;
     private String _owner;
 
-    protected Android(String model){
+    protected Android(String model) {
         _model = model;
     }
 
@@ -16,11 +16,11 @@ public class Android {
         return _owner;
     }
 
-    public void SetOwner(String owner){
+    public void SetOwner(String owner) {
         _owner = owner;
     }
 
-    public String Move(){
-        return "The " + _model + " android model is moving: The android is moving";
+    public String Move() {
+        return "The android is moving";
     }
 }
